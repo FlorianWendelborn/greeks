@@ -184,7 +184,7 @@ function getVega(s, k, t, v, r)
  * @param {Number} v Volatility as a decimal
  * @param {Number} r Anual risk-free interest rate as a decimal
  * @param {String} callPut The type of option - "call" or "put"
- * @param {String} [scale=365] The number of days to scale theta by - usually 365 or 252
+ * @param {Number} [scale=365] The number of days to scale theta by - usually 365 or 252
  * @returns {Number} The theta of the option
  */
 function getTheta(s, k, t, v, r, callPut, scale)
