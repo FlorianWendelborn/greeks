@@ -95,7 +95,7 @@ function _putDelta(s, k, t, v, r)
  * @param {Number} v Volatility as a decimal
  * @param {Number} r Anual risk-free interest rate as a decimal
  * @param {String} callPut The type of option - "call" or "put"
- * @param {String} [scale=100] The value to scale rho by (100=100BPS=1%, 10000=1BPS=.01%)
+ * @param {Number} [scale=100] The value to scale rho by (100=100BPS=1%, 10000=1BPS=.01%)
  * @returns {Number} The rho of the option
  */
 function getRho(s, k, t, v, r, callPut, scale)
